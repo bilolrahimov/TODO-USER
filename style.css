@@ -1,0 +1,401 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    justify-content: space-between; 
+    margin: auto;
+
+}
+
+th, td {
+    padding: 12px 16px;
+}
+table, th, td{
+    border-bottom: 2px solid rgb(105, 105, 105);
+    border-collapse: collapse;
+}
+
+
+
+.dot{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btnStatusInctive{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(216, 0, 0, 0.667);
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnStatusActive{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(0, 216, 14, 0.667);
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnUser{
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(37, 127, 244);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 900px;
+}
+
+.btnLight{
+    padding: 8px 25px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor:pointer;
+    font-size: 18px;
+}
+.btnLight:active{
+    background-color: rgb(219, 219, 219);
+}
+
+.btnDark{
+    padding: 8px 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor:pointer;
+    font-size: 18px;
+}
+
+.divAdd{
+    display: flex;
+    align-items: center;
+    gap: 310px;
+}
+
+.fa-xmark{
+    font-size: large;
+}
+
+.fa-xmark{
+    cursor: pointer;
+}
+
+.btnActionDelete{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.btnActionProfile{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.btnActionEdit{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.modalAction{
+    margin-right: 10px;
+    margin-bottom: 270px;
+    border: none;
+    box-shadow: 1px 1px 10px 3px rgb(105, 105, 105);
+}
+
+.fa-trash{
+    color: red;
+}
+
+.fa-pen-to-square{
+    color: green;
+}
+
+th, td{
+    font-size: 18px;
+}
+
+table {
+    width: 92%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+.formEdit input[name="name"]{
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.formEdit input[name="img"]{
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.formEdit input[name="email"]{
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.formEdit input[name="phone"]{
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.selectStatus{
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.SelectCities{
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bntSaveEdit{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(0, 113, 0, 0.742);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btnCancelEdit{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(196, 0, 0, 0.742);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.modalEdit{
+    border: none;
+    box-shadow: 1px 1px 10px 3px rgb(105, 105, 105);
+    padding: 30px;
+}
+
+input{
+    font-size: 16px;
+}
+
+th{
+    background-color: #e7eaf0;
+    text-align: start;
+}
+
+td{
+    background-color: rgb(249, 249, 249);
+}
+
+.divSearch{
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.searchName{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.forStatus{
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.forCities{
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.formAdd input[name="img"]{
+    width: 400px;
+    height: 30px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+.formAdd input[name="name"]{
+    width: 400px;
+    height: 30px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+.formAdd input[name="email"]{
+    width: 400px;
+    height: 30px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+.selectStatus{
+    width: 210px;
+
+}
+
+.SelectCities{
+    width: 210px;   
+}
+
+.formAdd input[name="phone"]{
+    width: 400px;
+    height: 30px;
+    padding: 3px 10px;
+    margin-bottom: 20px;
+}
+
+.bntSaveAdd{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(2, 117, 2, 0.685);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnCancelAdd{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgba(237, 0, 0, 0.671);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+th:nth-child(2), td:nth-child(2) { width: 20%; }
+th:nth-child(3), td:nth-child(3) { width: 15%; }
+th:nth-child(4), td:nth-child(4) { width: 20%; }
+th:nth-child(5), td:nth-child(5) { width: 10%; }
+
+
+.infoUser{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.actionInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modalInfo{
+    height: 100vh;
+    border: none;
+    box-shadow: 0px 0px 10px 3px rgb(48, 48, 48);
+    margin-right: 0px;
+    padding: 10px 30px;
+}
+.divInfo{
+    text-align: center;
+}
+
+
+.btnActionDeleteInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fafafa;
+    border: 1px solid red;
+    width: 80px;
+    padding: 8px 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+.btnActionEditInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f7f7f7ba;
+    border: 2px solid green;
+    width: 80px;
+    padding: 8px 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}.divInfoUser{
+    display: flex;
+    gap: 20px;
+}
+
+.imgInfo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.wrong{
+    border: none;
+    background-color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+.phoneUser{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.active{
+    background-color: rgba(0, 128, 0, 0.797);
+    color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.inactive{
+    background-color: rgba(211, 2, 2, 0.747);
+    color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
